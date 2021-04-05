@@ -1,9 +1,15 @@
 module.exports = {
-  purge: [],
+  purge: {
+    enabled: true,
+    mode: 'all',
+    content: [
+      './*.html',
+      './**/*.html',
+    ],
+  },
   theme: {
     extend: {
-      colors: {
-      }
+      colors: {}
     },
   },
   variants: {},

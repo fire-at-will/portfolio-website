@@ -1,14 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="build/tailwind.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="build/tailwind.css" />
+    <link rel="stylesheet" href="build/fontawesome.min.css" />
     <title>Will Taylor</title>
-</head>
-<body>
-    <div class="p-4 m-4 bg-green-300 h-full">
-        <h2 class="text-green-900">Portfolio Website</h2>
+  </head>
+  <body>
+    <div
+      class="min-h-screen min-w-screen bg-gradient-to-tr from-blue-400 to-blue-200 dark:bg-blue-900"
+    >
+      <div class="p-8 flex justify-center">
+        <div class="max-w-screen-xl">
+          <div class="text-center md:text-left">
+            <h2 class="text-black text-5xl">Will Taylor</h2>
+            <p class="py-4">
+              Hi, I'm Will! 👋 I'm an indie developer, SwiftUI enthusiast, taco
+              lover, cyclist, and Nintendo fan. During the day, I'm writing
+              incredible software with
+              <a
+                href="https://www.cardflight.com"
+                class="underline hover:text-gray-100"
+                >CardFlight</a
+              >
+              to change the way small businesses handle payments and by night I hack away on my side projects.
+            </p>
+
+            <h2 class="text-black text-3xl pb-4 pt-12">Apps</h2>
+          </div>
+
+          <!-- Apps  -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pb-8">
+            <!-- BP Bot Card -->
+            <div
+              class="max-w-md md:max-w-2xl mx-auto bg-white rounded-2xl shadow-md overflow-hidden"
+            >
+              <div class="flex justify-center">
+                <div class="flex-shrink-0 py-4 pl-4">
+                  <img
+                    class="h-48 object-cover md:w-48"
+                    src="./images/bpBotIcon.png"
+                    alt="BP Bot Icon"
+                  />
+                </div>
+                <div class="pt-8 pl-8 pr-8">
+                  <div
+                    class="uppercase tracking-wide text-sm text-indigo-500 font-semibold"
+                  >
+                    BP Bot
+                  </div>
+                  <p
+                    href="#"
+                    class="block mt-1 text-lg leading-tight font-medium text-black"
+                  >
+                    BP Recording Without the Hassle
+                  </p>
+                  <p class="mt-2 text-gray-500">
+                    BP Bot makes keeping track of your blood pressure a snap.
+                    Uncover patterns and correlations in your blood pressure
+                    that only a robot could find!
+                  </p>
+                  <div class="pt-1 text-left text-gray-500 pb-1 md:pb-0">
+                    <p>Release date: May 24, 2021</p>
+                    <!-- <a href="" class="text-indigo-400 hover:underline">Download</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- IPA Scribe Card -->
+            <div
+              class="max-w-md md:max-w-2xl mx-auto bg-white rounded-2xl shadow-md overflow-hidden"
+            >
+              <div class="flex justify-center">
+                <div class="flex-shrink-0 py-4 pl-4">
+                  <img
+                    class="h-48 object-cover md:w-48"
+                    src="./images/ipaScribe.png"
+                    alt="IPA Scribe Icon"
+                  />
+                </div>
+                <div class="pt-8 pl-8 pr-8">
+                  <a
+                    href="https://apps.apple.com/us/app/ipa-scribe/id1518487858"
+                    class="uppercase tracking-wide text-sm text-indigo-500 font-semibold hover:underline"
+                  >
+                    IPA Scribe
+                  </a>
+                  <p
+                    class="block mt-1 text-lg leading-tight font-medium text-black"
+                  >
+                    IPA Transcriptions, Simplified
+                  </p>
+                  <p class="mt-2 text-gray-500">
+                    Instantly transcribe your speech to IPA characters! IPA
+                    Scribe provides linguistic professionals with quick
+                    references to standard pronunciations of words to aid in
+                    their daily jobs.
+                  </p>
+                  <div class="pt-1 text-right pb-1 md:pb-0">
+                    <a
+                      href="https://apps.apple.com/us/app/ipa-scribe/id1518487858"
+                      class="text-indigo-400 hover:underline"
+                      >Download</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Symbol-It Card -->
+            <div
+              class="max-w-md md:max-w-2xl mx-auto bg-white rounded-2xl shadow-md overflow-hidden"
+            >
+              <div class="flex justify-center">
+                <div class="flex-shrink-0 py-4 pl-4">
+                  <img
+                    class="h-48 object-cover md:w-48"
+                    src="./images/symbolItIcon.png"
+                    alt="Symbol-It Icon"
+                  />
+                </div>
+                <div class="pt-8 pl-8 pr-8">
+                  <a
+                    href="https://apps.apple.com/us/app/symbol-it/id1441561034"
+                    class="uppercase tracking-wide text-sm text-indigo-500 font-semibold hover:underline"
+                  >
+                    Symbol-It
+                  </a>
+                  <p
+                    class="block mt-1 text-lg leading-tight font-medium text-black"
+                  >
+                    Making Language Visible
+                  </p>
+                  <p class="mt-2 text-gray-500">
+                    Instantly translate your speech to AAC (augmentative &
+                    alternative communication) picture symbols to easily
+                    communicate with non-verbal speakers in their symbol system.
+                  </p>
+                  <div class="pt-1 text-right pb-1 md:pb-0">
+                    <a
+                      href="https://apps.apple.com/us/app/symbol-it/id1441561034"
+                      class="text-indigo-400 hover:underline"
+                      >Download</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact  -->
+          <div class="text-center md:text-left">
+            <h2 class="text-black text-3xl pt-4">Contact</h2>
+            <p class="py-4">Feel free to reach out and say hello! I'm open for freelance work, chatting about anything dev related, or talking about whatever is on your mind!</p>
+          </div>
+          <div class="flex justify-center">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:max-w-lg">
+                <a href="https://twitter.com/Fire_At_Will_" class="text-center text-black hover:underline hover:text-white">
+                    <i class="fab fa-twitter fa-lg"></i>
+                    Twitter
+                  </a>
+        
+                  <a href="https://github.com/fire-at-will" class="text-center text-black hover:underline hover:text-white">
+                    <i class="fab fa-github fa-lg"></i>
+                    GitHub
+                  </a>
+        
+                  <a href="mailto:wtaylor151@gmail.com?subject=Hi%20There%20👋" class="text-center text-black hover:underline hover:text-white">
+                    <i class="far fa-envelope fa-lg"></i>
+                    Email
+                  </a>
+              </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
